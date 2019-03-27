@@ -81,7 +81,12 @@ export default {
     },
     async getComments() {
       let res = await this.chain.getVoteRecords(this.candidate.name);
-      this.comments = res.rows;
+      res.rows.forEach(row=>{
+        if(row.vote_time>this.candidate.apply_time){
+          this.comments.push(row);
+        }
+      })
+      // this.comments = res.rows;
     },
     goBack() {
       this.$router.go(-1);

@@ -3,7 +3,7 @@ module.exports = {
     "RegisterDesc": "Get one free account from telegram bot.",
     "FailedDesc": "If you failed in voting , you can apply again after 1 day .",
     "CheckDesc": "Click to check whether you pass the voting, if success , you will be added to members , if not , you can apply again after 1 day .",
-    "PassRule": "Pass rule: get yes vote from 66% members , or , wait 3 days after applying and get 66% yes vote from voters and voter number should more than 50% of all members.",
+    "PassRule": "Pass rule: get yes vote from 66% members , or , wait 7 days after applying and get 66% yes vote from voters and voter number should more than 50% of all members.",
     "Login": "Login",
     "Sign up": "Sign up",
     "Register Now": "Register Now",
